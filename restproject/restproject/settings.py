@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'restproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'clinetinfo',
-        'USER': 'root',
-        'PASSWORD': 'Aryan@1207',
+        'NAME': '', # add your data base name
+        'USER': '', # add your user name
+        'PASSWORD': ' ', 
         'HOST':'localhost',
         'PORT':'3306',
     }
